@@ -1,0 +1,186 @@
+.body{
+	background-image: url("../photos/body2.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-attachment: fixed;
+	background-size:cover;
+}
+.wrapper{
+	max-width:960px;
+	min-height:900px;
+	margin:auto;
+	margin-top:10px;
+	background-color: #fff;
+}
+.header{
+	margin-top:15px;
+	min-height:100px;
+}
+.logo{
+	float:left;
+}
+.nav{
+	height:70px;
+	font-size: 15px;
+	float:left;
+}
+.nav li{
+	display: inline;
+	padding-left: 10px;
+}
+.nav a{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.header_slika{
+	width:100%;
+	height:480px;
+	margin-top: 0px;
+}
+.main{
+	clear:both;
+	width:700px;
+	margin:auto;
+	margin-top:30px;
+	background-color: #0073e6;
+	border-radius: 6px;
+	overflow: auto;
+}
+
+.index_jedrilice, .index_jetski{
+	width: 350px;
+	height:auto;
+	float:left;
+	margin: 20px 0px;
+
+}
+.slika_index{
+	width: 300px;
+	margin:auto;
+}
+
+.index_odabir{
+	width: 280px;
+	margin: auto;
+	margin-top: 10px;
+	
+}
+
+.button{
+	width:140px;
+	height:30px;
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin:auto;
+    cursor: pointer;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+.button a{
+	text-decoration: none;
+	list-style-type: none;
+}	
+.footer{
+	width: 100%;
+	height:40px;
+	text-align: center;
+	font-style: italic;
+	background-color: black;
+	color:white;
+	margin: auto;
+	clear:both;
+}
+
+
+.main_kontakt{
+	clear:both;
+	margin-top:20px;
+	width:960px;
+	min-height: 500px;
+	margin:auto;
+	margin-top:30px;
+}
+.info{
+	width: 430px;
+	margin:auto;
+	float:left;
+	padding: 20px;
+}
+.mapa{
+	margin-top: 10px;
+	width: 470px;
+	float:right;
+	margin:auto;
+
+}
+.main_destinacije{
+	clear:both;
+	margin-top:20px;
+	width:100%;
+	margin:auto;
+	height: auto;
+	overflow: auto;
+}
+.destinacije_ponuda{
+	width:630px;
+	overflow: auto;
+}
+.ponuda{
+	width:630px;
+	float:left;
+	min-height: 280px;
+}
+
+.img_destinacije{
+	margin-left:10px;
+	width: 310px;
+	float:left;
+	min-height: 280px;
+}
+.img_destinacije img{
+	border-radius: 7px;
+	border-style: solid;
+	border-color: #0073e6;
+
+}
+.text_destinacije{
+	margin-left: 10px;
+	padding:5px 15px 10px 15px;
+	width:270px;
+	float:left;
+}
+.fixed_rezervacija{
+	padding:15px;
+	width:205px;
+	float:right;
+	background-color: #0073e6;
+	border-radius: 7px;
+	margin-right:25px;
+}
+
+.plovila_ponuda{
+	width:630px;
+	overflow: auto;
+}
+.img_plovila{
+	margin-left:10px;
+	width: 310px;
+	float:left;
+	min-height: 280px;
+}
+.img_plovila img{
+	border-radius: 7px;
+	border-style: solid;
+	border-color: #0073e6;
+}
+.text_plovila{
+	margin-left: 10px;
+	padding:5px 15px 10px 15px;
+	width:270px;
+	float:left;	
+}
