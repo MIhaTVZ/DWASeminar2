@@ -1,28 +1,63 @@
+<?php
+
+	include("admin/config.php");
+  	session_start();
+  	$user_login;
+   
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Index</title>
-	<link rel="stylesheet" href="css/style.css" />
+	<?php include_once "bootstrapInclude.php" ?>
 </head>
 <body class="body">
 	<div class="wrapper">
 		<div class="header">
 
-			<!-- Logo -->
-			<div class="logo">
-				<a href="index.php"><img src="photos/logo.png" width="150px" height="100px"></a>
-			</div>
-
-
 			<!-- Navigation with inline setting-->
-			<div class="nav">
-				<ul>
-					<li><a href="index.php">Početna</a></li>
-					<li><a href="destinacije.php">Destinacije</a></li>
-					<li><a href="plovila.php">Plovila</a></li>
-					<li><a href="kontakt.php">Kontakt</a></li>
-				</ul>
-			</div>
+			<nav class="navbar navbar-default navbar-fixed-top" style="background:white;">
+ 				 <div class="container-fluid">
+    				<!-- Brand and toggle get grouped for better mobile display -->
+			     	<div class="navbar-header">
+			    		<div class="logo">
+							<a href="index.php"><img src="photos/logo.png" width="100px" height="auto"></a>
+						</div>
+			    	</div>
+
+			   		 <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      	<ul class="nav navbar-nav" id="navigacija">
+								<li><a href="index.php">Početna</a></li>
+								<li><a href="destinacije.php">Destinacije</a></li>
+								<li><a href="plovila.php">Plovila</a></li>
+								<li><a href="kontakt.php">Kontakt</a></li>
+						</ul>
+
+
+						<div class="login_forma">
+							<form action="admin/login.php" method="post">
+								<p>
+									Username: 
+			                        <input type="text" name="username" id="username" value="" />
+			                    </p>
+			                    <p>
+			                        Password:
+			                        <input type="password" name="password" id="password" value="" />
+			                    </p>
+					            <p>
+					                <input type="submit" value="Submit" />
+					            </p>
+							</form>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			
 		</div>
 
 		<!--Header picture under header -->
@@ -39,10 +74,10 @@
 					<img src="photos/jedrilica1.jpg" width="300px" height="248px">
 				</div>
 				<div class="index_odabir">
-					<h2>Odaberite destinaciju</h2>
+					<h3>Odaberite destinaciju</h3>
 
 					<!--reservation of destionation button , redirection to selection of destionation for rent -->
-					<div class="button">
+					<div class="button1">
 							<a href="destinacije.php">Odabir destinacije</a>
 					</div>
 				</div>
@@ -52,10 +87,10 @@
 			<!-- Boat-type selection-->
 			<div class="index_jetski">
 				<div class="slika_index">
-					<img src="photos/jetski1.jpg" width="300px" height="248px">
+					<img src="photos/Yamaha zr1.jpg" width="300px" height="248px">
 				</div>
 				<div class="index_odabir">
-					<h2>Odaberite željeno plovilo</h2>
+					<h3>Odaberite željeno plovilo</h3>
 
 					<!--reservation of destionation button , redirection to selection of boat for rent -->
 					<div class="button">
